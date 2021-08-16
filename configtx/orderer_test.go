@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/SmartBFT-Go/fabric-config/configtx/orderer"
+	"github.com/SmartBFT-Go/fabric-config/protolator"
+	"github.com/SmartBFT-Go/fabric-config/protolator/protoext/ordererext"
 	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
 	ob "github.com/SmartBFT-Go/fabric-protos-go/v2/orderer"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/configtx/orderer"
-	"github.com/hyperledger/fabric-config/protolator"
-	"github.com/hyperledger/fabric-config/protolator/protoext/ordererext"
 	. "github.com/onsi/gomega"
 )
 

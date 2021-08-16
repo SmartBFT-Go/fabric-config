@@ -13,9 +13,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/SmartBFT-Go/fabric-config/protolator"
 	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/protolator"
 	. "github.com/onsi/gomega"
 )
 

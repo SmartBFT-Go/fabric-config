@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hyperledger/fabric-config/protolator/testprotos"
+	"github.com/SmartBFT-Go/fabric-config/protolator/testprotos"
 
 	. "github.com/onsi/gomega"
 )

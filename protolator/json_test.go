@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/SmartBFT-Go/fabric-config/protolator/testprotos"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/protolator/testprotos"
 
 	. "github.com/onsi/gomega"
 )

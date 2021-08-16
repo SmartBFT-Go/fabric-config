@@ -1,6 +1,6 @@
 # Hyperledger Fabric Packages for Fabric Config
 
-[![GoDoc](https://godoc.org/github.com/hyperledger/fabric-config?status.svg)](https://godoc.org/github.com/hyperledger/fabric-config)
+[![GoDoc](https://godoc.org/github.com/SmartBFT-Go/fabric-config?status.svg)](https://godoc.org/github.com/SmartBFT-Go/fabric-config)
 
 This repository contains the packages used by go implementations of the Fabric
 Config API.

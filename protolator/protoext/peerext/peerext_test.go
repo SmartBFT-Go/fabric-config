@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package peerext_test
 
 import (
-	"github.com/hyperledger/fabric-config/protolator"
-	"github.com/hyperledger/fabric-config/protolator/protoext/peerext"
+	"github.com/SmartBFT-Go/fabric-config/protolator"
+	"github.com/SmartBFT-Go/fabric-config/protolator/protoext/peerext"
 )
 
 // ensure structs implement expected interfaces

@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package mspext_test
 
 import (
-	"github.com/hyperledger/fabric-config/protolator"
-	"github.com/hyperledger/fabric-config/protolator/protoext/mspext"
+	"github.com/SmartBFT-Go/fabric-config/protolator"
+	"github.com/SmartBFT-Go/fabric-config/protolator/protoext/mspext"
 )
 
 // ensure structs implement expected interfaces

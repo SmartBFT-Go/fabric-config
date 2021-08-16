@@ -15,11 +15,11 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/SmartBFT-Go/fabric-config/configtx/orderer"
 	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
 	ob "github.com/SmartBFT-Go/fabric-protos-go/v2/orderer"
 	eb "github.com/SmartBFT-Go/fabric-protos-go/v2/orderer/etcdraft"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/configtx/orderer"
 )
 
 const (

@@ -15,11 +15,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/SmartBFT-Go/fabric-config/configtx/internal/policydsl"
+	"github.com/SmartBFT-Go/fabric-config/protolator"
+	"github.com/SmartBFT-Go/fabric-config/protolator/protoext/peerext"
 	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/configtx/internal/policydsl"
-	"github.com/hyperledger/fabric-config/protolator"
-	"github.com/hyperledger/fabric-config/protolator/protoext/peerext"
 	. "github.com/onsi/gomega"
 )
 

@@ -9,11 +9,11 @@ package commonext
 import (
 	"fmt"
 
+	"github.com/SmartBFT-Go/fabric-config/protolator/protoext/ordererext"
+	"github.com/SmartBFT-Go/fabric-config/protolator/protoext/peerext"
 	"github.com/SmartBFT-Go/fabric-protos-go/v2/common"
 	"github.com/SmartBFT-Go/fabric-protos-go/v2/msp"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/protolator/protoext/ordererext"
-	"github.com/hyperledger/fabric-config/protolator/protoext/peerext"
 )
 
 type DynamicChannelGroup struct {

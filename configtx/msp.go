@@ -17,10 +17,10 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/SmartBFT-Go/fabric-config/configtx/membership"
 	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
 	mb "github.com/SmartBFT-Go/fabric-protos-go/v2/msp"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/configtx/membership"
 )
 
 // MSP is the configuration information for a Fabric MSP.

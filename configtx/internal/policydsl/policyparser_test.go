@@ -9,10 +9,10 @@ package policydsl_test
 import (
 	"testing"
 
+	"github.com/SmartBFT-Go/fabric-config/configtx/internal/policydsl"
 	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
 	mb "github.com/SmartBFT-Go/fabric-protos-go/v2/msp"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-config/configtx/internal/policydsl"
 
 	. "github.com/onsi/gomega"
 )
