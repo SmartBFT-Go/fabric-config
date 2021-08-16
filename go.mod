@@ -1,4 +1,4 @@
-module github.com/hyperledger/fabric-config
+module github.com/SmartBFT-Go/fabric-config
 
 go 1.14
 
