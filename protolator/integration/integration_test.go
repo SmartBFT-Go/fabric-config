@@ -11,11 +11,11 @@ import (
 	"io/ioutil"
 	"testing"
 
+	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
+	mb "github.com/SmartBFT-Go/fabric-protos-go/v2/msp"
+	pb "github.com/SmartBFT-Go/fabric-protos-go/v2/peer"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-config/protolator"
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	mb "github.com/hyperledger/fabric-protos-go/msp"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
 	. "github.com/onsi/gomega"
 )
 

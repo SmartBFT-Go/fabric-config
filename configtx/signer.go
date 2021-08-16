@@ -18,9 +18,9 @@ import (
 	"io"
 	"math/big"
 
+	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
+	mb "github.com/SmartBFT-Go/fabric-protos-go/v2/msp"
 	"github.com/golang/protobuf/proto"
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	mb "github.com/hyperledger/fabric-protos-go/msp"
 )
 
 // SigningIdentity is an MSP Identity that can be used to sign configuration

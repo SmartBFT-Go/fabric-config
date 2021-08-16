@@ -18,12 +18,12 @@ import (
 	"testing"
 	"time"
 
+	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
+	mb "github.com/SmartBFT-Go/fabric-protos-go/v2/msp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-config/configtx/membership"
 	"github.com/hyperledger/fabric-config/configtx/orderer"
 	"github.com/hyperledger/fabric-config/protolator"
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	mb "github.com/hyperledger/fabric-protos-go/msp"
 	. "github.com/onsi/gomega"
 )
 

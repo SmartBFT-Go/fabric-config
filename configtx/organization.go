@@ -9,10 +9,10 @@ package configtx
 import (
 	"fmt"
 
+	cb "github.com/SmartBFT-Go/fabric-protos-go/v2/common"
+	mb "github.com/SmartBFT-Go/fabric-protos-go/v2/msp"
+	pb "github.com/SmartBFT-Go/fabric-protos-go/v2/peer"
 	"github.com/golang/protobuf/proto"
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	mb "github.com/hyperledger/fabric-protos-go/msp"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
 )
 
 // newOrgConfigGroup returns an config group for an organization.

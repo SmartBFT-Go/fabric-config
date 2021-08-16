@@ -9,8 +9,8 @@ package peerext
 import (
 	"fmt"
 
+	"github.com/SmartBFT-Go/fabric-protos-go/v2/peer"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/peer"
 )
 
 type ProposalResponsePayload struct {

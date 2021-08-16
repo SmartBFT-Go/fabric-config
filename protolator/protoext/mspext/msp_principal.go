@@ -9,8 +9,8 @@ package mspext
 import (
 	"fmt"
 
+	"github.com/SmartBFT-Go/fabric-protos-go/v2/msp"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/msp"
 )
 
 type MSPPrincipal struct{ *msp.MSPPrincipal }
